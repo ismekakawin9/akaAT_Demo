@@ -1,0 +1,58 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "vehicleSize",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//select[@id\u003d\u0027vehicleSize\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//select[@name\u003d\u0027vehicleSize\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//select",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/main/div/div/div/div/div/div/div/div[2]/form/div/div[5]/select",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Name",
+      "value": "vehicleSize",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "74bfa499-487c-4bcc-99f4-5f281825bb42"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "74bfa499-487c-4bcc-99f4-5f281825bb42"
+}

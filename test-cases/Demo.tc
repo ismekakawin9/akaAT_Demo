@@ -1,0 +1,242 @@
+{
+  "varNode": {
+    "descendants": {
+      "INPUT": {
+        "descendants": {}
+      },
+      "REPO": {
+        "descendants": {}
+      },
+      "OUTPUT": {
+        "descendants": {}
+      },
+      "KEYWORD": {
+        "descendants": {}
+      }
+    },
+    "value": "06e1a8ea-08c8-4b16-8696-c1f0627f3779"
+  },
+  "platform": {
+    "type": "Web",
+    "displayName": "Web"
+  },
+  "setUpList": [],
+  "stepList": [
+    {
+      "uuid": "c594228f-8d95-430a-92fc-32d4cf5dba54",
+      "name": "Open Browser",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "url",
+          "type": "String",
+          "defaultValue": "https://practice.automationtesting.in/my-account/",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "118",
+      "keywordSource": "internal",
+      "keywordMethod": "openBrowser",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "8f6ccfcc-c99f-401e-8bf5-d6b6f5f171f1",
+      "name": "Maximize Current Window",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "246",
+      "keywordSource": "internal",
+      "keywordMethod": "maximizeCurrentWindow",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "da5fb4d7-7850-494d-bfbc-2d8259dd8dfb",
+      "name": "Wait For Element Visible",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Web UIObject",
+          "defaultValue": "4bb2307e-8d3a-4b28-bcc0-06b86436065b",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "0",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "Boolean",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "195",
+      "keywordSource": "internal",
+      "keywordMethod": "waitForElementVisible",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "d3a0b81f-0348-498f-a27d-188607a3efb3",
+      "name": "Send Keys",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Web UIObject",
+          "defaultValue": "4bb2307e-8d3a-4b28-bcc0-06b86436065b",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "keys",
+          "type": "String",
+          "defaultValue": "datnt",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "153",
+      "keywordSource": "internal",
+      "keywordMethod": "sendKeys",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "55c9b9a9-5757-4072-b884-3cc75ad28ced",
+      "name": "Send Keys",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Web UIObject",
+          "defaultValue": "c047648d-c78a-441f-a324-face6509bb55",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "keys",
+          "type": "String",
+          "defaultValue": "ThanhDat1!",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "153",
+      "keywordSource": "internal",
+      "keywordMethod": "sendKeys",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "95d8c9fe-8c31-4b0f-b228-b72ad4d09171",
+      "name": "Send Special Keyboard Character",
+      "platform": {
+        "type": "Web",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Web UIObject",
+          "defaultValue": "c047648d-c78a-441f-a324-face6509bb55",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "strKeys",
+          "type": "KeyboardKeyCode",
+          "defaultValue": "ENTER",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "154",
+      "keywordSource": "internal",
+      "keywordMethod": "sendSpecialKeyboardCharacter",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    }
+  ],
+  "tearDownList": [],
+  "managerId": "",
+  "uuid": "06e1a8ea-08c8-4b16-8696-c1f0627f3779"
+}

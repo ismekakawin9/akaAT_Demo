@@ -1,0 +1,51 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "firstName",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//input[@id\u003d\u0027firstName\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//input[@name\u003d\u0027firstName\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/main/div/div/div/div/div/div/div/div[2]/form/div/div[1]/input",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Name",
+      "value": "firstName",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "bf2864b0-0106-4f82-90b1-b2c984b6f511"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "bf2864b0-0106-4f82-90b1-b2c984b6f511"
+}

@@ -1,0 +1,30 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "//div[@id\u003d\u0027___gcse_0\u0027]/div/div/div[2]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div[2]/div[3]/div/div/div/div[2]",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "f28b63e8-3cf5-4d19-a0e1-d9e8c304e873"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "f28b63e8-3cf5-4d19-a0e1-d9e8c304e873"
+}

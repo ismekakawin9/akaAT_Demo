@@ -1,0 +1,44 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "completeReservation",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//button[@id\u003d\u0027completeReservation\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//button[text()\u003d\u0027Complete Reservation\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/main/div/div/div[2]/div/div/div/div/div[2]/form/button",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "df24c86a-d786-4a4b-91f0-18ea3a7edf3b"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "df24c86a-d786-4a4b-91f0-18ea3a7edf3b"
+}

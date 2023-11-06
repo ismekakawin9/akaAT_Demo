@@ -1,0 +1,19 @@
+{
+  "varNode": {
+    "descendants": {
+      "password": {
+        "descendants": {},
+        "value": "ThanhDat1!"
+      },
+      "URL": {
+        "descendants": {},
+        "value": "https://practice.automationtesting.in/my-account/"
+      },
+      "username": {
+        "descendants": {},
+        "value": "datnt\t"
+      }
+    }
+  },
+  "uuid": "default"
+}

@@ -1,0 +1,44 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "userName-label",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//label[@id\u003d\u0027userName-label\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//label[text()\u003d\u0027Full Name\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div[2]/div/div/div[2]/div[2]/div[2]/form/div[1]/div[1]/label",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "5e3ce6a0-3b8b-45c9-8116-bdff3fef9c7f"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "5e3ce6a0-3b8b-45c9-8116-bdff3fef9c7f"
+}

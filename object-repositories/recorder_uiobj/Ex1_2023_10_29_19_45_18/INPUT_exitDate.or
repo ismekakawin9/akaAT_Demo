@@ -1,0 +1,51 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "exitDate",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//input[@id\u003d\u0027exitDate\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//input[@name\u003d\u0027exitDate\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/main/div/div/div[1]/div[1]/div/div/form/div[3]/div[1]/div/input",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Name",
+      "value": "exitDate",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "dec82a77-b3f6-4598-995f-3eceaa163f8d"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "dec82a77-b3f6-4598-995f-3eceaa163f8d"
+}

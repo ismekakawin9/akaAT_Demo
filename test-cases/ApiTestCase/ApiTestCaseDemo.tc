@@ -1,0 +1,140 @@
+{
+  "varNode": {
+    "descendants": {
+      "INPUT": {
+        "descendants": {}
+      },
+      "REPO": {
+        "descendants": {}
+      },
+      "OUTPUT": {
+        "descendants": {
+          "responseBody": {
+            "descendants": {},
+            "value": ""
+          },
+          "apiResponse": {
+            "descendants": {},
+            "value": ""
+          }
+        }
+      },
+      "KEYWORD": {
+        "descendants": {}
+      }
+    },
+    "value": "4ecead40-f20d-4313-9d05-dc708d2cd34b"
+  },
+  "platform": {
+    "type": "Web",
+    "displayName": "Web"
+  },
+  "setUpList": [],
+  "stepList": [
+    {
+      "uuid": "a511ad68-4134-448d-ae02-b38b9625dd75",
+      "name": "Send API Request",
+      "platform": {
+        "type": "API",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "request",
+          "type": "WebServiceObject",
+          "defaultValue": "9758f8c6-d423-4aea-85db-afda1156ba9f",
+          "source": ""
+        }
+      ],
+      "params": [],
+      "output": {
+        "name": "`$.this.OUTPUT.apiResponse`",
+        "type": "ResponseObject",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "1",
+      "keywordSource": "internal",
+      "keywordMethod": "sendAPIRequest",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "10a9dd74-238e-4d8d-872e-98f6d8014756",
+      "name": "Verify Status Code",
+      "platform": {
+        "type": "API",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "response",
+          "type": "ResponseObject",
+          "defaultValue": "`$.this.OUTPUT.apiResponse`",
+          "source": ""
+        },
+        {
+          "name": "expectedStatusCode",
+          "type": "Integer",
+          "defaultValue": "200",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "5",
+      "keywordSource": "internal",
+      "keywordMethod": "verifyStatusCode",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "ff6f1865-dedd-44e7-b324-95864090d728",
+      "name": "Get Response Body",
+      "platform": {
+        "type": "API",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "response",
+          "type": "ResponseObject",
+          "defaultValue": "`$.this.OUTPUT.apiResponse`",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "`$.this.OUTPUT.responseBody`",
+        "type": "String",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "4",
+      "keywordSource": "internal",
+      "keywordMethod": "getResponseBody",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    }
+  ],
+  "tearDownList": [],
+  "managerId": "",
+  "uuid": "4ecead40-f20d-4313-9d05-dc708d2cd34b"
+}

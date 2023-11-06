@@ -1,0 +1,44 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "continue",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//button[@id\u003d\u0027continue\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//button[text()\u003d\u0027Continue\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/main/div/div/div/div/div/div/div/div[2]/form/button",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "117066a5-0750-46de-b705-004657745184"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "117066a5-0750-46de-b705-004657745184"
+}

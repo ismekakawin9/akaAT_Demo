@@ -1,0 +1,44 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "output-number",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//strong[@id\u003d\u0027output-number\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//strong[text()\u003d\u002720\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/main/div/div/div[2]/div[2]/div[1]/div/strong",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "a0e2e6c1-68be-4613-83d6-7765607ab08d"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "a0e2e6c1-68be-4613-83d6-7765607ab08d"
+}

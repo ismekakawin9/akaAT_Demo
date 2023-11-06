@@ -1,0 +1,44 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "btn-display-inputs",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//button[@id\u003d\u0027btn-display-inputs\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//button[text()\u003d\u0027Display Inputs\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/main/div/div/div[1]/div/button[1]",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "c3cf51c7-fa08-486a-a895-4e0b3c9ac157"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "c3cf51c7-fa08-486a-a895-4e0b3c9ac157"
+}

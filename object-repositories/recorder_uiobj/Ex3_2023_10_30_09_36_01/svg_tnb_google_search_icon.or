@@ -1,0 +1,30 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "tnb-google-search-icon",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div[2]/div[1]/div[1]/div[1]/div/svg",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "d9c6699d-2158-4178-8c56-59bf063fb38f"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "d9c6699d-2158-4178-8c56-59bf063fb38f"
+}

@@ -1,0 +1,20 @@
+{
+  "url": "http://webservice.toscacloud.com/rest/api/Auth_V2",
+  "type": "REST",
+  "headerMap": {},
+  "body": "{\r\n  \"Password\": \"Password1\",\r\n  \"Username\": \"Username1\"\r\n}",
+  "formBody": {},
+  "requestOption": "POST",
+  "urlParamter": {},
+  "authObj": {
+    "type": "None",
+    "userName": "",
+    "password": ""
+  },
+  "bodyType": "application/json",
+  "varNode": {
+    "descendants": {},
+    "value": "9758f8c6-d423-4aea-85db-afda1156ba9f"
+  },
+  "uuid": "9758f8c6-d423-4aea-85db-afda1156ba9f"
+}

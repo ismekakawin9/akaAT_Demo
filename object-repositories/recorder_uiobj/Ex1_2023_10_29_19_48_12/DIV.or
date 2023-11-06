@@ -1,0 +1,30 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "//div[text()\u003d\u0027\n                                                A valid first name (3-20 characters) is required.\n                                            \u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/main/div/div/div/div/div/div/div/div[2]/form/div/div[1]/div",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "edd38357-90f3-4323-93b1-58664d6a165b"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "edd38357-90f3-4323-93b1-58664d6a165b"
+}

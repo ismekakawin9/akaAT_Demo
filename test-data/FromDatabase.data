@@ -1,0 +1,8 @@
+###########metadata###########
+uuid=8d6acfea-2f87-46c4-8c52-7f98a39bdd69
+###########data###########
+id,name,runway_size,max_fixed_wing,max_rotated_wing
+AP01,Da Nang,700,6,3
+AP02,Noi Bai,1000,10,5
+AP03,Tan Son Nhat,1200,12,5
+AP04,"Nha Trang ",600,4,2

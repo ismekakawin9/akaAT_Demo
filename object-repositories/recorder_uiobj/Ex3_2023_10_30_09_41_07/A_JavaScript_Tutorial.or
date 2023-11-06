@@ -1,0 +1,37 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "//div/div[1]/div[1]/div/a[text()\u003d\u0027 Tutorial\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div[2]/div[3]/div/div/div/div[1]/div[6]/div[2]/div/div/div[1]/div[1]/div[1]/div[1]/div/a",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Linktext",
+      "value": " Tutorial",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "c053eb81-f11c-47d0-b1f4-6d4d8f67938b"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "c053eb81-f11c-47d0-b1f4-6d4d8f67938b"
+}

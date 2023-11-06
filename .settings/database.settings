@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "61f15c97-767f-4572-b6d4-9261558be131",
+    "type": "MICROSOFT_SQL_SERVER",
+    "name": "Database",
+    "host": "localhost",
+    "port": "1433",
+    "userName": "ismekakawin9",
+    "password": "1232001",
+    "database": "JavaFinal",
+    "instanceName": "",
+    "serviceName": "",
+    "tNSName": "",
+    "subProtocol": "",
+    "properties": {
+      "encrypt": "true",
+      "trustServerCertificate": "true"
+    }
+  }
+]

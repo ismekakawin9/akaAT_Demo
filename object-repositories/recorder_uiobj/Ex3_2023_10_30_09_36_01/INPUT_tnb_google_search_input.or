@@ -1,0 +1,37 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "tnb-google-search-input",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//input[@id\u003d\u0027tnb-google-search-input\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div[2]/div[1]/div[1]/div[1]/input",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "4e0fc784-aa8a-46c5-8fe1-7cd274072c17"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "4e0fc784-aa8a-46c5-8fe1-7cd274072c17"
+}

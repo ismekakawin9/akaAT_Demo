@@ -1,0 +1,37 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "userName",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//input[@id\u003d\u0027userName\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div[2]/div/div/div[2]/div[2]/div[2]/form/div[1]/div[2]/input",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "4c4a1a8f-f1fb-46e4-86d6-17f48e0dfbe8"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "4c4a1a8f-f1fb-46e4-86d6-17f48e0dfbe8"
+}

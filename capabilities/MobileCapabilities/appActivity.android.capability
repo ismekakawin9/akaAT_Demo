@@ -1,0 +1,16 @@
+{
+  "uuid": "9a561a52-5173-4f57-a8cb-4798e324e4cd",
+  "driverCapabilities": {},
+  "CAPABILITY": "android:androidOptions",
+  "caps": {
+    "deviceName": "Android_Automation_Device",
+    "platformName": "Android",
+    "udid": "emulator-5554",
+    "appPackage": "com.swaglabsmobileapp",
+    "appActivity": ".MainActivity",
+    "deviceReadyTimeout": "60",
+    "androidDeviceReadyTimeout": "60",
+    "newCommandTimeout": "240",
+    "automationName": "UiAutomator2"
+  }
+}

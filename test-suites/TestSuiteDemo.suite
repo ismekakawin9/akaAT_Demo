@@ -1,0 +1,87 @@
+{
+  "testCaseList": [
+    {
+      "uuid": "c61d93a7-8e88-4632-8496-a32d18e3f2fb",
+      "disable": false,
+      "caseUUID": "0097e7ce-213f-40c7-937f-885dcec65fe9",
+      "runProfile": {
+        "platformType": "Web",
+        "colorCode": "#52c41a",
+        "profile": {
+          "configCapability": {}
+        }
+      },
+      "testRounds": [
+        {
+          "uuid": "b4ee1b38-df1d-44a2-ba3f-3eafa396835b",
+          "name": "datnt",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "password",
+                "username"
+              ],
+              "dataTable": [
+                [
+                  "ThanhDat1!",
+                  "datnt"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "cc9fb097-52f2-4f47-aac8-28a33f5114ea",
+          "name": "datnt123",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "password",
+                "username"
+              ],
+              "dataTable": [
+                [
+                  "datnt321",
+                  "datnt123"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "169becae-d5b7-480d-b8f0-ce86305d591b",
+          "name": "admin",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "password",
+                "username"
+              ],
+              "dataTable": [
+                [
+                  "123456",
+                  "admin"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "concurrent": 1,
+  "platform": "Web",
+  "uuid": "77102eb6-4bd6-4c9b-a9b9-3025e81890bd"
+}
