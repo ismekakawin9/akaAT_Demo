@@ -11,9 +11,9 @@
       },
       "username": {
         "descendants": {},
-        "value": "standard_user"
+        "value": "problem_user"
       }
     }
   },
-  "uuid": "default"
+  "uuid": "Chrome"
 }

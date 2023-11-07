@@ -197,38 +197,6 @@
       "captureImg": false
     },
     {
-      "uuid": "aa4152d9-f49e-4e1c-ba91-1bef80b238d1",
-      "name": "Wait",
-      "platform": {
-        "type": "core",
-        "displayName": "",
-        "capUUID": ""
-      },
-      "objRepo": [],
-      "params": [
-        {
-          "name": "timeout",
-          "type": "Integer",
-          "defaultValue": "4",
-          "source": ""
-        }
-      ],
-      "output": {
-        "name": "",
-        "type": "void",
-        "defaultValue": "",
-        "source": ""
-      },
-      "keywordPath": "8",
-      "keywordSource": "internal",
-      "keywordMethod": "wait",
-      "description": "",
-      "failureHandling": "STOP_ON_FAILURE",
-      "failureDescription": "",
-      "enable": true,
-      "captureImg": false
-    },
-    {
       "uuid": "430ab722-c2d9-447b-9666-92a0908262e0",
       "name": "Verify Element Text",
       "platform": {
@@ -305,38 +273,6 @@
       "keywordPath": "141",
       "keywordSource": "internal",
       "keywordMethod": "click",
-      "description": "",
-      "failureHandling": "STOP_ON_FAILURE",
-      "failureDescription": "",
-      "enable": true,
-      "captureImg": false
-    },
-    {
-      "uuid": "e0e01cc5-a097-4689-b9e8-e9097b7409b7",
-      "name": "Wait",
-      "platform": {
-        "type": "core",
-        "displayName": "",
-        "capUUID": ""
-      },
-      "objRepo": [],
-      "params": [
-        {
-          "name": "timeout",
-          "type": "Integer",
-          "defaultValue": "4",
-          "source": ""
-        }
-      ],
-      "output": {
-        "name": "",
-        "type": "void",
-        "defaultValue": "",
-        "source": ""
-      },
-      "keywordPath": "8",
-      "keywordSource": "internal",
-      "keywordMethod": "wait",
       "description": "",
       "failureHandling": "STOP_ON_FAILURE",
       "failureDescription": "",

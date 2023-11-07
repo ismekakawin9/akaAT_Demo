@@ -13,7 +13,7 @@
       },
       "testRounds": [
         {
-          "uuid": "b4ee1b38-df1d-44a2-ba3f-3eafa396835b",
+          "uuid": "07cfd322-33c8-4692-a989-2c84006c00bb",
           "name": "datnt",
           "disable": false,
           "testCaseVariableBinding": {
@@ -35,7 +35,7 @@
           }
         },
         {
-          "uuid": "cc9fb097-52f2-4f47-aac8-28a33f5114ea",
+          "uuid": "ef9f6db6-91d8-4a96-ac19-72bea664f563",
           "name": "datnt123",
           "disable": false,
           "testCaseVariableBinding": {
@@ -57,7 +57,7 @@
           }
         },
         {
-          "uuid": "169becae-d5b7-480d-b8f0-ce86305d591b",
+          "uuid": "4a64a9b3-f9a8-4023-8bad-5ca58b21fa3b",
           "name": "admin",
           "disable": false,
           "testCaseVariableBinding": {
@@ -81,7 +81,7 @@
       ]
     }
   ],
-  "concurrent": 1,
+  "concurrent": 3,
   "platform": "Web",
   "uuid": "77102eb6-4bd6-4c9b-a9b9-3025e81890bd"
 }

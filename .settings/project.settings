@@ -1,6 +1,40 @@
 {
-    "settings": {
-        "manager.projectId": ""
+  "settings": {
+    "manager.projectId": "",
+    "project.path": "D:\\akaAT\\Demo"
+  },
+  "runProfiles": [
+    {
+      "id": "EdgeProfile",
+      "platformType": "Web",
+      "capability": {
+        "capUUID": "dc955062-60f3-403c-817b-d542883a34c1"
+      },
+      "gvProfile": {
+        "profileId": "default"
+      },
+      "colorCode": "#40a9ff",
+      "profile": {
+        "configCapability": {
+          "Browser": "edge"
+        }
+      }
     },
-    "runProfiles": []
+    {
+      "id": "ChromeProfile",
+      "platformType": "Web",
+      "capability": {
+        "capUUID": "f74ceeb7-2e23-43f6-803c-5dc3c4457d4c"
+      },
+      "gvProfile": {
+        "profileId": "Chrome"
+      },
+      "colorCode": "#fadb14",
+      "profile": {
+        "configCapability": {
+          "Browser": "chrome"
+        }
+      }
+    }
+  ]
 }
