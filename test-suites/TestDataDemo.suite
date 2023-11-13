@@ -1,7 +1,7 @@
 {
   "testCaseList": [
     {
-      "uuid": "c61d93a7-8e88-4632-8496-a32d18e3f2fb",
+      "uuid": "47803e4c-1d48-4f7b-8f55-7bb8b403dce2",
       "disable": false,
       "caseUUID": "0097e7ce-213f-40c7-937f-885dcec65fe9",
       "runProfile": {
@@ -13,7 +13,7 @@
       },
       "testRounds": [
         {
-          "uuid": "07cfd322-33c8-4692-a989-2c84006c00bb",
+          "uuid": "6654be49-e02a-42c3-a905-3a43316c42e4",
           "name": "datnt",
           "disable": false,
           "testCaseVariableBinding": {
@@ -35,30 +35,8 @@
           }
         },
         {
-          "uuid": "ef9f6db6-91d8-4a96-ac19-72bea664f563",
-          "name": "datnt123",
-          "disable": false,
-          "testCaseVariableBinding": {
-            "index": 0,
-            "slice": {
-              "uuid": "",
-              "columns": [
-                "password",
-                "username"
-              ],
-              "dataTable": [
-                [
-                  "datnt321",
-                  "datnt123"
-                ]
-              ],
-              "tableName": ""
-            }
-          }
-        },
-        {
-          "uuid": "4a64a9b3-f9a8-4023-8bad-5ca58b21fa3b",
-          "name": "admin",
+          "uuid": "5be26523-4055-4d8e-b3d2-e7c087c9aae4",
+          "name": "datttt",
           "disable": false,
           "testCaseVariableBinding": {
             "index": 0,
@@ -71,7 +49,29 @@
               "dataTable": [
                 [
                   "123456",
-                  "admin"
+                  "datttt"
+                ]
+              ],
+              "tableName": ""
+            }
+          }
+        },
+        {
+          "uuid": "b84a80f3-d33b-4773-94fe-f7856a41f844",
+          "name": "thanhdat",
+          "disable": false,
+          "testCaseVariableBinding": {
+            "index": 0,
+            "slice": {
+              "uuid": "",
+              "columns": [
+                "password",
+                "username"
+              ],
+              "dataTable": [
+                [
+                  "123456",
+                  "thanhdat"
                 ]
               ],
               "tableName": ""

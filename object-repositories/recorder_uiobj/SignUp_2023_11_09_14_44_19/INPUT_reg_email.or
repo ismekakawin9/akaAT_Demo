@@ -1,0 +1,51 @@
+{
+  "locatorList": [
+    {
+      "strategy": "ID",
+      "value": "reg_email",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//input[@id\u003d\u0027reg_email\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "//input[@name\u003d\u0027email\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div[1]/div[2]/div/div/div/div/div[1]/div/div[2]/form/p[1]/input",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Name",
+      "value": "email",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "5ed44416-c76f-4d4e-ae83-ea40d4cb2b07"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "5ed44416-c76f-4d4e-ae83-ea40d4cb2b07"
+}

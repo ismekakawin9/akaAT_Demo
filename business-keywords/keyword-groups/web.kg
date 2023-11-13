@@ -1,0 +1,24 @@
+{
+  "platform": {
+    "type": "Web"
+  },
+  "varNode": {
+    "descendants": {
+      "INPUT": {
+        "descendants": {}
+      },
+      "REPO": {
+        "descendants": {}
+      },
+      "OUTPUT": {
+        "descendants": {}
+      },
+      "KEYWORD": {
+        "descendants": {}
+      }
+    },
+    "value": "aa6c5ce4-6f63-456f-a092-ba2238d6ede8"
+  },
+  "executions": [],
+  "uuid": "aa6c5ce4-6f63-456f-a092-ba2238d6ede8"
+}

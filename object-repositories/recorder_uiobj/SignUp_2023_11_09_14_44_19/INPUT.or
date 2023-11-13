@@ -1,0 +1,37 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "//input[@name\u003d\u0027register\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div[1]/div[2]/div/div/div/div/div[1]/div/div[2]/form/p[3]/input[3]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "Name",
+      "value": "register",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "2a16390d-3f2e-4daf-a4d1-f429b08b49ca"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "2a16390d-3f2e-4daf-a4d1-f429b08b49ca"
+}

@@ -1,0 +1,24 @@
+{
+  "platform": {
+    "type": "windows"
+  },
+  "varNode": {
+    "descendants": {
+      "INPUT": {
+        "descendants": {}
+      },
+      "REPO": {
+        "descendants": {}
+      },
+      "OUTPUT": {
+        "descendants": {}
+      },
+      "KEYWORD": {
+        "descendants": {}
+      }
+    },
+    "value": "c85a08f8-7539-4bf8-a5f8-e838fac04fe9"
+  },
+  "executions": [],
+  "uuid": "c85a08f8-7539-4bf8-a5f8-e838fac04fe9"
+}

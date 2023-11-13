@@ -1,0 +1,37 @@
+{
+  "varNode": {
+    "descendants": {
+      "INPUT": {
+        "descendants": {
+          "username": {
+            "descendants": {},
+            "value": ""
+          },
+          "password": {
+            "descendants": {},
+            "value": ""
+          }
+        }
+      },
+      "REPO": {
+        "descendants": {}
+      },
+      "OUTPUT": {
+        "descendants": {}
+      },
+      "KEYWORD": {
+        "descendants": {}
+      }
+    },
+    "value": "d91cc772-957f-47c1-98b9-8e07dfc60c22"
+  },
+  "platform": {
+    "type": "Web",
+    "displayName": "Web"
+  },
+  "setUpList": [],
+  "stepList": [],
+  "tearDownList": [],
+  "managerId": "",
+  "uuid": "d91cc772-957f-47c1-98b9-8e07dfc60c22"
+}

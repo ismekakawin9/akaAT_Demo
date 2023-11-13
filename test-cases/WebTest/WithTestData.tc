@@ -1,25 +1,25 @@
 {
   "varNode": {
     "descendants": {
+      "REPO": {
+        "descendants": {}
+      },
+      "KEYWORD": {
+        "descendants": {}
+      },
       "INPUT": {
         "descendants": {
           "password": {
             "descendants": {},
-            "value": ""
+            "value": "default_username"
           },
           "username": {
             "descendants": {},
-            "value": ""
+            "value": "default_password"
           }
         }
       },
-      "REPO": {
-        "descendants": {}
-      },
       "OUTPUT": {
-        "descendants": {}
-      },
-      "KEYWORD": {
         "descendants": {}
       }
     },

@@ -211,7 +211,7 @@
       ],
       "params": [],
       "output": {
-        "name": "`$.this.OUTPUT.productTag`",
+        "name": "`$.GLOBAL.productTag`",
         "type": "String",
         "defaultValue": ""
       },
@@ -236,7 +236,7 @@
         {
           "name": "text",
           "type": "String",
-          "defaultValue": "`$.this.OUTPUT.productTag`",
+          "defaultValue": "`$.GLOBAL.productTag`",
           "source": ""
         },
         {

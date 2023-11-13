@@ -14,7 +14,7 @@
         "descendants": {}
       }
     },
-    "value": "85f3890a-dfd6-42c9-8eca-ca4f1344c5f5"
+    "value": "e73641b1-a5ae-46a8-b0c7-fa06a5f69bd6"
   },
   "platform": {
     "type": "Mobile",
@@ -23,7 +23,7 @@
   "setUpList": [],
   "stepList": [
     {
-      "uuid": "3edafe31-375d-4fd1-b165-a7ffb925a965",
+      "uuid": "8b0c8e82-0130-4654-a04a-dde322136d44",
       "name": "Start Mobile Automation",
       "platform": {
         "type": "Mobile"
@@ -47,5 +47,5 @@
   ],
   "tearDownList": [],
   "managerId": "",
-  "uuid": "85f3890a-dfd6-42c9-8eca-ca4f1344c5f5"
+  "uuid": "e73641b1-a5ae-46a8-b0c7-fa06a5f69bd6"
 }

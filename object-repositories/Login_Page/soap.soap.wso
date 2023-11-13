@@ -1,0 +1,20 @@
+{
+  "url": "",
+  "type": "SOAP",
+  "headerMap": {},
+  "body": "",
+  "formBody": {},
+  "requestOption": "SOAP12",
+  "urlParamter": {},
+  "authObj": {
+    "type": "None",
+    "userName": "",
+    "password": ""
+  },
+  "bodyType": "text/xml",
+  "varNode": {
+    "descendants": {},
+    "value": "951f186e-6822-4768-a2fd-88be12898b30"
+  },
+  "uuid": "951f186e-6822-4768-a2fd-88be12898b30"
+}

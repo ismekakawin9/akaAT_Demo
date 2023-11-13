@@ -1,0 +1,72 @@
+{
+  "locatorList": [
+    {
+      "strategy": "Accessibility ID",
+      "value": "",
+      "type": [
+        "ios"
+      ],
+      "active": true
+    },
+    {
+      "strategy": "Class Name",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "ID",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "Name",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "XPath",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "Image",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "android uiautomator",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "ios predicate string",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "ios class chain",
+      "value": "",
+      "type": [],
+      "active": true
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "26554130-ef36-4654-8fba-8ad9420ae520"
+  },
+  "type": "Mobile",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "26554130-ef36-4654-8fba-8ad9420ae520"
+}

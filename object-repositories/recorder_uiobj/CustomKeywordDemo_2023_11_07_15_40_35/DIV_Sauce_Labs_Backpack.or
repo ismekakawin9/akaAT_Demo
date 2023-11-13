@@ -1,0 +1,30 @@
+{
+  "locatorList": [
+    {
+      "strategy": "XPath",
+      "value": "//div[text()\u003d\u0027Sauce Labs Backpack\u0027]",
+      "active": true,
+      "status": true,
+      "type": []
+    },
+    {
+      "strategy": "XPath",
+      "value": "html/body/div/div/div/div[2]/div/div/div/div[1]/div[2]/div[1]/a/div",
+      "active": true,
+      "status": true,
+      "type": []
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "3a106189-2fdf-471f-8fe8-20ba53b3e16d"
+  },
+  "type": "Web",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "3a106189-2fdf-471f-8fe8-20ba53b3e16d"
+}

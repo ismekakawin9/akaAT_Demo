@@ -2,7 +2,16 @@
   "varNode": {
     "descendants": {
       "INPUT": {
-        "descendants": {}
+        "descendants": {
+          "password": {
+            "descendants": {},
+            "value": "ThanhDat1!"
+          },
+          "username": {
+            "descendants": {},
+            "value": "datnt"
+          }
+        }
       },
       "REPO": {
         "descendants": {}
@@ -14,7 +23,7 @@
         "descendants": {}
       }
     },
-    "value": "06e1a8ea-08c8-4b16-8696-c1f0627f3779"
+    "value": "7d2dca1a-8cbe-450c-93a0-260e1842426b"
   },
   "platform": {
     "type": "Web",
@@ -23,7 +32,7 @@
   "setUpList": [],
   "stepList": [
     {
-      "uuid": "c594228f-8d95-430a-92fc-32d4cf5dba54",
+      "uuid": "e45caefc-6b6e-4e7f-a731-119707285aee",
       "name": "Open Browser",
       "platform": {
         "type": "Web",
@@ -35,7 +44,7 @@
         {
           "name": "url",
           "type": "String",
-          "defaultValue": "https://practice.automationtesting.in/my-account/",
+          "defaultValue": "`$.GLOBAL.URL`",
           "source": ""
         }
       ],
@@ -52,36 +61,11 @@
       "failureHandling": "STOP_ON_FAILURE",
       "failureDescription": "",
       "enable": true,
-      "captureImg": false
+      "captureImg": true
     },
     {
-      "uuid": "8f6ccfcc-c99f-401e-8bf5-d6b6f5f171f1",
-      "name": "Maximize Current Window",
-      "platform": {
-        "type": "Web",
-        "displayName": "",
-        "capUUID": ""
-      },
-      "objRepo": [],
-      "params": [],
-      "output": {
-        "name": "",
-        "type": "void",
-        "defaultValue": "",
-        "source": ""
-      },
-      "keywordPath": "246",
-      "keywordSource": "internal",
-      "keywordMethod": "maximizeCurrentWindow",
-      "description": "",
-      "failureHandling": "STOP_ON_FAILURE",
-      "failureDescription": "",
-      "enable": true,
-      "captureImg": false
-    },
-    {
-      "uuid": "da5fb4d7-7850-494d-bfbc-2d8259dd8dfb",
-      "name": "Wait For Element Visible",
+      "uuid": "c3b09d65-fd52-4560-9a53-9854c8fe0727",
+      "name": "Verify Element Visible",
       "platform": {
         "type": "Web",
         "displayName": "",
@@ -91,7 +75,7 @@
         {
           "name": "target",
           "type": "Web UIObject",
-          "defaultValue": "4bb2307e-8d3a-4b28-bcc0-06b86436065b",
+          "defaultValue": "64eafb09-d46a-4717-b453-a1c1892fa295",
           "source": ""
         }
       ],
@@ -99,19 +83,19 @@
         {
           "name": "timeout",
           "type": "Integer",
-          "defaultValue": "0",
+          "defaultValue": "5",
           "source": ""
         }
       ],
       "output": {
         "name": "",
-        "type": "Boolean",
+        "type": "void",
         "defaultValue": "",
         "source": ""
       },
-      "keywordPath": "195",
+      "keywordPath": "188",
       "keywordSource": "internal",
-      "keywordMethod": "waitForElementVisible",
+      "keywordMethod": "verifyElementVisible",
       "description": "",
       "failureHandling": "STOP_ON_FAILURE",
       "failureDescription": "",
@@ -119,7 +103,7 @@
       "captureImg": false
     },
     {
-      "uuid": "d3a0b81f-0348-498f-a27d-188607a3efb3",
+      "uuid": "6e39c38d-0a5a-4fd4-84bd-7e94a235c920",
       "name": "Send Keys",
       "platform": {
         "type": "Web",
@@ -130,7 +114,7 @@
         {
           "name": "target",
           "type": "Web UIObject",
-          "defaultValue": "4bb2307e-8d3a-4b28-bcc0-06b86436065b",
+          "defaultValue": "64eafb09-d46a-4717-b453-a1c1892fa295",
           "source": ""
         }
       ],
@@ -138,7 +122,7 @@
         {
           "name": "keys",
           "type": "String",
-          "defaultValue": "datnt",
+          "defaultValue": "`$.this.INPUT.username`",
           "source": ""
         }
       ],
@@ -158,7 +142,7 @@
       "captureImg": false
     },
     {
-      "uuid": "55c9b9a9-5757-4072-b884-3cc75ad28ced",
+      "uuid": "4f02b371-50b9-4b2f-9aea-253a65de23e4",
       "name": "Send Keys",
       "platform": {
         "type": "Web",
@@ -169,7 +153,7 @@
         {
           "name": "target",
           "type": "Web UIObject",
-          "defaultValue": "c047648d-c78a-441f-a324-face6509bb55",
+          "defaultValue": "632ddf81-67dc-4894-8ee7-69318877a675",
           "source": ""
         }
       ],
@@ -177,7 +161,7 @@
         {
           "name": "keys",
           "type": "String",
-          "defaultValue": "ThanhDat1!",
+          "defaultValue": "`$.this.INPUT.password`",
           "source": ""
         }
       ],
@@ -197,8 +181,8 @@
       "captureImg": false
     },
     {
-      "uuid": "95d8c9fe-8c31-4b0f-b228-b72ad4d09171",
-      "name": "Send Special Keyboard Character",
+      "uuid": "1a7b75d0-fdae-439e-ac2a-3d0f07f16b08",
+      "name": "Click",
       "platform": {
         "type": "Web",
         "displayName": "",
@@ -208,27 +192,20 @@
         {
           "name": "target",
           "type": "Web UIObject",
-          "defaultValue": "c047648d-c78a-441f-a324-face6509bb55",
+          "defaultValue": "792f7b42-182f-4ec9-b222-fcf66cc421cc",
           "source": ""
         }
       ],
-      "params": [
-        {
-          "name": "strKeys",
-          "type": "KeyboardKeyCode",
-          "defaultValue": "ENTER",
-          "source": ""
-        }
-      ],
+      "params": [],
       "output": {
         "name": "",
         "type": "void",
         "defaultValue": "",
         "source": ""
       },
-      "keywordPath": "154",
+      "keywordPath": "141",
       "keywordSource": "internal",
-      "keywordMethod": "sendSpecialKeyboardCharacter",
+      "keywordMethod": "click",
       "description": "",
       "failureHandling": "STOP_ON_FAILURE",
       "failureDescription": "",
@@ -236,25 +213,26 @@
       "captureImg": false
     },
     {
-      "uuid": "1f5ec7e8-8715-4489-9032-58f90d4e57a5",
-      "name": "Verify Text Equal",
+      "uuid": "b1139b6c-2db4-49fc-b018-d844464a6bfd",
+      "name": "Verify Element Visible",
       "platform": {
-        "type": "core",
+        "type": "Web",
         "displayName": "",
         "capUUID": ""
       },
-      "objRepo": [],
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Web UIObject",
+          "defaultValue": "6b7eabb7-0b32-48bd-9b1d-5d8705711af6",
+          "source": ""
+        }
+      ],
       "params": [
         {
-          "name": "text",
-          "type": "String",
-          "defaultValue": "`$.GLOBAL.productTag`",
-          "source": ""
-        },
-        {
-          "name": "anotherText",
-          "type": "String",
-          "defaultValue": "Products",
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "5",
           "source": ""
         }
       ],
@@ -264,9 +242,9 @@
         "defaultValue": "",
         "source": ""
       },
-      "keywordPath": "23",
+      "keywordPath": "188",
       "keywordSource": "internal",
-      "keywordMethod": "verifyTextEqual",
+      "keywordMethod": "verifyElementVisible",
       "description": "",
       "failureHandling": "STOP_ON_FAILURE",
       "failureDescription": "",
@@ -276,5 +254,5 @@
   ],
   "tearDownList": [],
   "managerId": "",
-  "uuid": "06e1a8ea-08c8-4b16-8696-c1f0627f3779"
+  "uuid": "7d2dca1a-8cbe-450c-93a0-260e1842426b"
 }

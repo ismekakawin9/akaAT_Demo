@@ -43,6 +43,174 @@
       "failureHandling": "STOP_ON_FAILURE",
       "enable": true,
       "captureImg": false
+    },
+    {
+      "uuid": "145920c1-7c5d-4738-93bc-99de2cfb49bb",
+      "name": "Verify Element Visible",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "2d349181-0201-4381-bfa1-7ac3b7ce96a2",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "87",
+      "keywordSource": "internal",
+      "keywordMethod": "verifyElementVisible",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "4824a584-0060-4704-bb49-093cb735956a",
+      "name": "Send Keys",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "3ab8cca4-0d8c-4275-985e-3f51cdaf15ce",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "text",
+          "type": "String",
+          "defaultValue": "standard_user",
+          "source": ""
+        },
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "60",
+      "keywordSource": "internal",
+      "keywordMethod": "sendKeys",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "3c892a56-4dc5-4f4a-a0e8-3acdca20af7a",
+      "name": "Send Keys",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "efc23590-aced-4631-aa01-59a5722c8fbb",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "text",
+          "type": "String",
+          "defaultValue": "secret_sauce",
+          "source": ""
+        },
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "60",
+      "keywordSource": "internal",
+      "keywordMethod": "sendKeys",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "01de3eb2-2352-4ee5-8b84-c4098c4a899d",
+      "name": "Click",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "37148b71-5bd1-4a7b-93b0-3f14bc4a2e0b",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "59",
+      "keywordSource": "internal",
+      "keywordMethod": "click",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
     }
   ],
   "tearDownList": [],

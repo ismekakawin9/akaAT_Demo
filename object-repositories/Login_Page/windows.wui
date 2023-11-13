@@ -1,0 +1,52 @@
+{
+  "locatorList": [
+    {
+      "strategy": "Accessibility ID",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "Class Name",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "ID",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "Name",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "Tag Name",
+      "value": "",
+      "type": [],
+      "active": true
+    },
+    {
+      "strategy": "XPath",
+      "value": "",
+      "type": [],
+      "active": true
+    }
+  ],
+  "varNode": {
+    "descendants": {
+      "REPO": {
+        "descendants": {}
+      }
+    },
+    "value": "fcb20f0f-eef0-48e9-8be7-709ca7aca7da"
+  },
+  "type": "windows",
+  "inShadowRoot": false,
+  "parentId": "",
+  "uuid": "fcb20f0f-eef0-48e9-8be7-709ca7aca7da"
+}

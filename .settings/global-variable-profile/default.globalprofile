@@ -5,6 +5,10 @@
         "descendants": {},
         "value": "secret_sauce"
       },
+      "productTag": {
+        "descendants": {},
+        "value": ""
+      },
       "URL": {
         "descendants": {},
         "value": "https://practice.automationtesting.in/my-account/"
