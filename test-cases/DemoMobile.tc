@@ -43,6 +43,51 @@
       "failureHandling": "STOP_ON_FAILURE",
       "enable": true,
       "captureImg": false
+    },
+    {
+      "uuid": "1bd0559a-91d8-4838-a905-d242a667c956",
+      "name": "Send Keys",
+      "platform": {
+        "type": "Mobile",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [
+        {
+          "name": "target",
+          "type": "Mobile UIObject",
+          "defaultValue": "efb6ae97-f02b-42a1-8f5d-503d29925cb6",
+          "source": ""
+        }
+      ],
+      "params": [
+        {
+          "name": "text",
+          "type": "String",
+          "defaultValue": "standard_user",
+          "source": ""
+        },
+        {
+          "name": "timeout",
+          "type": "Integer",
+          "defaultValue": "10",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "60",
+      "keywordSource": "internal",
+      "keywordMethod": "sendKeys",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
     }
   ],
   "tearDownList": [],

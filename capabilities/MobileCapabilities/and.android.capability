@@ -1,0 +1,16 @@
+{
+  "uuid": "ce0a8637-7a15-49c0-a7c6-48b52e38a552",
+  "driverCapabilities": {},
+  "CAPABILITY": "android:androidOptions",
+  "caps": {
+    "deviceName": "",
+    "platformName": "Android",
+    "udid": "",
+    "appPackage": "",
+    "appActivity": "",
+    "deviceReadyTimeout": "60",
+    "androidDeviceReadyTimeout": "60",
+    "newCommandTimeout": "240",
+    "automationName": "UiAutomator2"
+  }
+}

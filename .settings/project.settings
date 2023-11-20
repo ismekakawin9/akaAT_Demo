@@ -8,15 +8,15 @@
       "id": "EdgeProfile",
       "platformType": "Web",
       "capability": {
-        "capUUID": "dc955062-60f3-403c-817b-d542883a34c1"
+        "capUUID": "f74ceeb7-2e23-43f6-803c-5dc3c4457d4c"
       },
       "gvProfile": {
-        "profileId": "default"
+        "profileId": "Chrome"
       },
       "colorCode": "#40a9ff",
       "profile": {
         "configCapability": {
-          "Browser": "edge"
+          "Browser": "chrome"
         }
       }
     },

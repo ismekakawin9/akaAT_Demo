@@ -1,0 +1,20 @@
+{
+  "url": "",
+  "type": "REST",
+  "headerMap": {},
+  "body": "",
+  "formBody": {},
+  "requestOption": "GET",
+  "urlParamter": {},
+  "authObj": {
+    "type": "None",
+    "userName": "",
+    "password": ""
+  },
+  "bodyType": "",
+  "varNode": {
+    "descendants": {},
+    "value": "26137aad-5442-41e7-a7d6-e1eef8eae7cc"
+  },
+  "uuid": "26137aad-5442-41e7-a7d6-e1eef8eae7cc"
+}
