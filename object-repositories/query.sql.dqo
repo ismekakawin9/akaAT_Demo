@@ -1,6 +1,7 @@
 {
   "configId": "61f15c97-767f-4572-b6d4-9261558be131",
   "type": "SQL",
+  "queryString": "select * from Plane",
   "varNode": {
     "descendants": {},
     "value": "02864133-290e-4503-a652-a9abf4fa45ab"

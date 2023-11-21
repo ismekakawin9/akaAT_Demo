@@ -14,15 +14,15 @@
         "descendants": {}
       }
     },
-    "value": "22492a27-6344-4b02-97c5-8fee85a033c8"
+    "value": "8681e82d-81e4-41d0-8ca5-66aa824e5bb7"
   },
   "platform": {
-    "type": "E2E",
-    "displayName": "E2E"
+    "type": "Web",
+    "displayName": "Web"
   },
   "setUpList": [],
   "stepList": [],
   "tearDownList": [],
   "managerId": "",
-  "uuid": "22492a27-6344-4b02-97c5-8fee85a033c8"
+  "uuid": "8681e82d-81e4-41d0-8ca5-66aa824e5bb7"
 }

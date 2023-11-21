@@ -35,6 +35,14 @@
           "Browser": "chrome"
         }
       }
+    },
+    {
+      "id": "E2EProfile",
+      "platformType": "E2E",
+      "colorCode": "#9254de",
+      "profile": {
+        "configCapability": {}
+      }
     }
   ]
 }

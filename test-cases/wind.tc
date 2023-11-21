@@ -1,0 +1,118 @@
+{
+  "varNode": {
+    "descendants": {
+      "INPUT": {
+        "descendants": {}
+      },
+      "REPO": {
+        "descendants": {}
+      },
+      "OUTPUT": {
+        "descendants": {}
+      },
+      "KEYWORD": {
+        "descendants": {}
+      }
+    },
+    "value": "b5fef1cb-674b-44f6-a5a0-a2ac60ddf504"
+  },
+  "platform": {
+    "type": "windows",
+    "displayName": "windows"
+  },
+  "setUpList": [
+    {
+      "uuid": "12a2974d-2cec-4714-b2ec-33f6c2d92217",
+      "name": "Start Windows Application Automation",
+      "platform": {
+        "type": "windows",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "203",
+      "keywordSource": "internal",
+      "keywordMethod": "startWindowsApplicationAutomation",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "4a0d3289-243a-410a-9f98-6ea033327304",
+      "name": "Switch To Window By Title",
+      "platform": {
+        "type": "windows",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "title",
+          "type": "String",
+          "defaultValue": "Windows Media Player Legacy",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "215",
+      "keywordSource": "internal",
+      "keywordMethod": "switchToWindowByTitle",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    },
+    {
+      "uuid": "6f071254-81d9-47e1-aa0a-2983e37ce059",
+      "name": "Close Window By Title",
+      "platform": {
+        "type": "windows",
+        "displayName": "",
+        "capUUID": ""
+      },
+      "objRepo": [],
+      "params": [
+        {
+          "name": "title",
+          "type": "String",
+          "defaultValue": "Windows Media Player Legacy",
+          "source": ""
+        }
+      ],
+      "output": {
+        "name": "",
+        "type": "void",
+        "defaultValue": "",
+        "source": ""
+      },
+      "keywordPath": "217",
+      "keywordSource": "internal",
+      "keywordMethod": "closeWindowByTitle",
+      "description": "",
+      "failureHandling": "STOP_ON_FAILURE",
+      "failureDescription": "",
+      "enable": true,
+      "captureImg": false
+    }
+  ],
+  "stepList": [],
+  "tearDownList": [],
+  "managerId": "",
+  "uuid": "b5fef1cb-674b-44f6-a5a0-a2ac60ddf504"
+}
